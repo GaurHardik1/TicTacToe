@@ -1,0 +1,74 @@
+# CSS CODE OF TIC TAC TOE
+Author - @GaurHardik1
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b91b6f;
+    text-align: center;
+}
+
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    box-shadow:0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    color: #1a1859;
+    background-color: #f7b8b3;
+
+}
+
+#resetBtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    font-size: 1.25rem;
+}
+
+
+#msg{
+    color: #232B2B;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+
+.hide{
+    display: none;
+}
+
+#newGameBtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+};
